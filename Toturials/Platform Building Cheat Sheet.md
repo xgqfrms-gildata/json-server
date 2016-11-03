@@ -1,4 +1,4 @@
-# Platform-Building Cheat Sheet
+# Platform Building Cheat Sheet （平台构建速查表）
 
 
 First off, we need to understand what is meant by the term **'platform'** for the organization.
