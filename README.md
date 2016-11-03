@@ -18,23 +18,29 @@ Create a `db.json` file
 
 ```json
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "posts": [{
+        "id": 1,
+        "title": "json-server",
+        "author": "typicode"
+    }],
+    "comments": [{
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+    }],
+    "profile": {
+        "name": "typicode"
+    }
 }
 ```
 
-Start JSON Server
+启动 JSON Server
 
 ```bash
 $ json-server --watch db.json
 ```
 
-Now if you go to [http://localhost:3000/posts/1](), you'll get
+现在如果你到浏览器打开 [http://localhost:3000/posts/1](), 你会得到
 
 ```json
 { "id": 1, "title": "json-server", "author": "typicode" }
@@ -52,11 +58,11 @@ Also when doing requests, its good to know that
 $ npm install -g json-server
 ```
 
-## Routes
+## 路由
 
 Based on the previous `db.json` file, here are all the default routes. You can also add [other routes](#add-routes) using `--routes`.
 
-### Plural routes
+### 复数(多条)路由
 
 ```
 GET    /posts
@@ -67,7 +73,7 @@ PATCH  /posts/1
 DELETE /posts/1
 ```
 
-### Singular routes
+### 单数路由
 
 ```
 GET    /profile
@@ -76,7 +82,7 @@ PUT    /profile
 PATCH  /profile
 ```
 
-### Filter
+### 过滤器
 
 Use `.` to access deep properties
 
