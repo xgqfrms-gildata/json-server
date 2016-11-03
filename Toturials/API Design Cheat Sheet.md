@@ -1,4 +1,4 @@
-# API Design Cheat Sheet  
+# API Design Cheat Sheet  (API设计速查表)
 
 
 1. Build the API with consumers in mind--as a product in its own right.
