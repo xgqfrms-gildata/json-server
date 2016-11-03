@@ -1,6 +1,7 @@
 # JSON Server [![](https://travis-ci.org/typicode/json-server.svg?branch=master)](https://travis-ci.org/typicode/json-server) [![](https://badge.fury.io/js/json-server.svg)](http://badge.fury.io/js/json-server) [![](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/typicode/json-server?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Get a full fake REST API with __zero coding__ in __less than 30 seconds__ (seriously)
+
+获得一个完整的假 REST API  __零编码__  **不到30秒** (认真地, 严肃地)
 
 Created with <3 for front-end developers who need a quick back-end for prototyping and mocking.
 
