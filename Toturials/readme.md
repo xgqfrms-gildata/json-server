@@ -15,3 +15,5 @@
 
 [Learn REST: A RESTful Tutorial](http://www.restapitutorial.com/)
 
+![json-server-bug](https://cloud.githubusercontent.com/assets/18028768/19953999/cf7f2580-a1ae-11e6-970a-df8fb371da53.png)
+
