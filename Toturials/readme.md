@@ -9,3 +9,6 @@
 
 [Quick Tip: Mock REST APIs Using json-server](https://www.sitepoint.com/mock-rest-apis-using-json-server/)
 
+
+[faker.js](https://github.com/ufo-github/faker.js)
+
