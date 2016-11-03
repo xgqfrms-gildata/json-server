@@ -12,3 +12,6 @@
 
 [faker.js](https://github.com/ufo-github/faker.js)
 
+
+[Learn REST: A RESTful Tutorial](http://www.restapitutorial.com/)
+
