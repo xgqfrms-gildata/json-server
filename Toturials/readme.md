@@ -21,3 +21,9 @@
 
 [Learn REST: A Tutorial](http://rest.elkstein.org/2008/02/what-is-rest.html)
 
+
+***********************************************************************************************
+## [API Design Cheat Sheet](API Design Cheat Sheet.md)
+
+## [Platform-Building Cheat Sheet](Platform Building Cheat Sheet.md)
+************************************************************************************************
