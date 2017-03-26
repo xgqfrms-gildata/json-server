@@ -35,5 +35,5 @@
 ***********************************************************************************************
 ## [API Design Cheat Sheet](API Design Cheat Sheet.md)
 
-## [Platform-Building Cheat Sheet](Platform Building Cheat Sheet.md)
+## [Platform Building Cheat Sheet](Platform Building Cheat Sheet.md)
 ************************************************************************************************
