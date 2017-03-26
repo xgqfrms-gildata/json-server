@@ -12,16 +12,16 @@ See also:
 * :hotel: [hotel - Get local domains in seconds](https://github.com/typicode/hotel)
 * :dog: [husky - Git hooks made easy](https://github.com/typicode/husky)
 
-## Table of contents
+## 目录
 
 <details>
 
 <!-- toc -->
 
 - [范例](#范例)
-- [Install](#install)
-- [Routes](#routes)
-  * [Plural routes](#plural-routes)
+- [安装](#安装)
+- [路由](#路由)
+  * [复数(多条)路由](#复数(多条)路由)
   * [Singular routes](#singular-routes)
   * [Filter](#filter)
   * [Paginate](#paginate)
@@ -32,7 +32,7 @@ See also:
   * [Relationships](#relationships)
   * [Database](#database)
   * [Homepage](#homepage)
-- [Extras](#extras)
+- [额外的](#额外的)
   * [Static file server](#static-file-server)
   * [Alternative port](#alternative-port)
   * [Access from anywhere](#access-from-anywhere)
@@ -50,11 +50,11 @@ See also:
     + [Rewriter example](#rewriter-example)
     + [Mounting JSON Server on another endpoint example](#mounting-json-server-on-another-endpoint-example)
   * [Deployment](#deployment)
-- [Links](#links)
+- [链接](#链接)
   * [Video](#video)
   * [Articles](#articles)
   * [Third-party tools](#third-party-tools)
-- [License](#license)
+- [许可协议](#许可协议)
 
 <!-- tocstop -->
 
