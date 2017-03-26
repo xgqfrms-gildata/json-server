@@ -12,7 +12,7 @@ See also:
 * :hotel: [hotel - Get local domains in seconds](https://github.com/typicode/hotel)
 * :dog: [husky - Git hooks made easy](https://github.com/typicode/husky)
 
-## Example
+## 范例
 
 Create a `db.json` file
 
@@ -52,7 +52,7 @@ Also when doing requests, its good to know that
 - Id values are not mutable. Any `id` value in the body of your PUT or PATCH request wil be ignored. Only a value set in a POST request wil be respected, but only if not already taken.
 - A POST, PUT or PATCH request should include a `Content-Type: application/json` header to use the JSON in the request body. Otherwise it will result in a 200 OK but without changes being made to the data.
 
-## Install
+## 安装
 
 ```bash
 $ npm install -g json-server
@@ -92,9 +92,9 @@ GET /posts?id=1&id=2
 GET /comments?author.name=typicode
 ```
 
-### Paginate
+### 分页
 
-Add `_page` and in the `Link` header you'll get `first`, `prev`, `next` and `last` links
+Add `_page` and in the `Link` header you will get `first`, `prev`, `next` and `last` links
 
 ```
 GET /posts?_page=7
@@ -102,7 +102,7 @@ GET /posts?_page=7
 
 _10 items are returned by default_
 
-### Sort
+### 排序
 
 Add `_sort` and `_order` (ascending order by default)
 
@@ -111,7 +111,7 @@ GET /posts?_sort=views&_order=DESC
 GET /posts/1/comments?_sort=votes&_order=ASC
 ```
 
-### Slice
+### 分片
 
 Add `_start` and `_end` or `_limit` (an `X-Total-Count` header is included in the response)
 
@@ -121,7 +121,7 @@ GET /posts/1/comments?_start=20&_end=30
 GET /posts/1/comments?_start=20&_limit=10
 ```
 
-### Operators
+### 操作
 
 Add `_gte` or `_lte` for getting a range
 
@@ -141,7 +141,7 @@ Add `_like` to filter (RegExp supported)
 GET /posts?title_like=server
 ```
 
-### Full-text search
+### 全文搜索
 
 Add `q`
 
@@ -149,7 +149,7 @@ Add `q`
 GET /posts?q=internet
 ```
 
-### Relationships
+### 关系
 
 To include children resources, add `_embed`
 
@@ -172,13 +172,13 @@ GET  /posts/1/comments
 POST /posts/1/comments
 ```
 
-### Database
+### 数据库
 
 ```
 GET /db
 ```
 
-### Homepage
+### 首页
 
 Returns default index file or serves `./public` directory
 
@@ -186,9 +186,9 @@ Returns default index file or serves `./public` directory
 GET /
 ```
 
-## Extras
+## 额外的
 
-### Static file server
+### 静态文件服务器
 
 You can use JSON Server to serve your HTML, JS and CSS, simply create a `./public` directory
 or use `--static` to set a different static files directory.
@@ -203,7 +203,7 @@ json-server db.json
 json-server db.json --static ./some-other-dir
 ```
 
-### Alternative port
+### 可选择端口 
 
 You can start JSON Server on other ports with the `--port` flag:
 
@@ -211,11 +211,11 @@ You can start JSON Server on other ports with the `--port` flag:
 $ json-server --watch db.json --port 3004
 ```
 
-### Access from anywhere
+### 从任何地方访问
 
 You can access your fake API from anywhere using CORS and JSONP.
 
-### Remote schema
+### 远程示模式
 
 You can load remote schemas.
 
@@ -224,7 +224,7 @@ $ json-server http://example.com/file.json
 $ json-server http://jsonplaceholder.typicode.com/db
 ```
 
-### Generate random data
+### 生成随机数据
 
 Using JS instead of a JSON file, you can create data programmatically.
 
@@ -246,7 +246,7 @@ $ json-server index.js
 
 __Tip__ use modules like [faker](https://github.com/Marak/faker.js), [casual](https://github.com/boo1ean/casual) or [chance](https://github.com/victorquinn/chancejs).
 
-### Add routes
+### 添加 routes
 
 Create a `routes.json` file. Pay attention to start every route with /.
 
@@ -271,7 +271,7 @@ Now you can access resources using additional routes.
 /blog/posts/1/show
 ```
 
-### Add middlewares
+### 添加 中间件
 
 You can add your middlewares from the CLI using `--middlewares` option:
 
@@ -288,7 +288,7 @@ json-server db.json --middlewares ./hello.js
 json-server db.json --middlewares ./first.js ./second.js
 ```
 
-### CLI usage
+### CLI 用法
 
 ```
 json-server [options] <source>
@@ -327,11 +327,11 @@ You can also set options in a `json-server.json` configuration file.
 }
 ```
 
-### Module
+### 模块
 
 If you need to add authentication, validation, or __any behavior__, you can use the project as a module in combination with other Express middlewares.
 
-#### Simple example
+#### 简单的例子
 
 ```js
 // server.js
@@ -354,7 +354,7 @@ $ node server.js
 For an in-memory database, you can pass an object to `jsonServer.router()`.
 Please note also that `jsonServer.router()` can be used in existing Express projects.
 
-#### Custom routes example
+#### 自定义 routes例子
 
 Let's say you want a route that echoes query parameters and another one that set a timestamp on every resource created.
 
@@ -387,7 +387,7 @@ server.listen(3000, function () {
 })
 ```
 
-#### Access control example
+#### 访问控制示例
 
 ```js
 var jsonServer = require('json-server')
@@ -409,7 +409,7 @@ server.listen(3000, function () {
 })
 ```
 
-#### Custom output example
+#### 自定义输出示例
 
 To modify responses, overwrite `router.render` method:
 
@@ -422,7 +422,7 @@ router.render = function (req, res) {
 }
 ```
 
-#### Rewriter example
+#### 重写器示例
 
 To add rewrite rules, use `jsonServer.rewriter()`:
 
@@ -434,7 +434,7 @@ server.use(jsonServer.rewriter({
 }))
 ```
 
-#### Mounting JSON Server on another endpoint example
+#### Mounting JSON Server on another endpoint example 在另一个端点上安装JSON服务器示例
 
 Alternatively, you can also mount the router on `/api`.
 
@@ -442,17 +442,17 @@ Alternatively, you can also mount the router on `/api`.
 server.use('/api', router)
 ```
 
-### Deployment
+### 部署
 
 You can deploy JSON Server. For example, [JSONPlaceholder](http://jsonplaceholder.typicode.com) is an online fake API powered by JSON Server and running on Heroku.
 
-## Links
+## 链接
 
-### Video
+### 视频
 
 * [Creating Demo APIs with json-server on egghead.io](https://egghead.io/lessons/nodejs-creating-demo-apis-with-json-server)
 
-### Articles
+### 文章
 
 * [Node Module Of The Week - json-server](http://nmotw.in/json-server/)
 * [Mock up your REST API with JSON Server](http://www.betterpixels.co.uk/projects/2015/05/09/mock-up-your-rest-api-with-json-server/)
@@ -460,13 +460,13 @@ You can deploy JSON Server. For example, [JSONPlaceholder](http://jsonplaceholde
 * [Fast prototyping using Restangular and Json-server](http://glebbahmutov.com/blog/fast-prototyping-using-restangular-and-json-server/)
 * [Create a Mock REST API in Seconds for Prototyping your Frontend](https://coligo.io/create-mock-rest-api-with-json-server/)
 
-### Third-party tools
+### 第三方工具
 
 * [Grunt JSON Server](https://github.com/tfiwm/grunt-json-server)
 * [Docker JSON Server](https://github.com/clue/docker-json-server)
 * [JSON Server GUI](https://github.com/naholyr/json-server-gui)
 * [JSON file generator](https://github.com/dfsq/json-server-init)
 
-## License
+##  许可协议
 
 MIT - [Typicode](https://github.com/typicode)
