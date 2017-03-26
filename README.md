@@ -40,7 +40,7 @@ Create a `db.json` file
 $ json-server --watch db.json
 ```
 
-现在如果你到浏览器打开 [http://localhost:3000/posts/1](), 你会得到
+现在如果你到浏览器打开 [http://localhost:3000/posts/1](http://localhost:3000/posts/1), 你会得到
 
 ```json
 { "id": 1, "title": "json-server", "author": "typicode" }
