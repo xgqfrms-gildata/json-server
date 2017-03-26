@@ -12,6 +12,54 @@ See also:
 * :hotel: [hotel - Get local domains in seconds](https://github.com/typicode/hotel)
 * :dog: [husky - Git hooks made easy](https://github.com/typicode/husky)
 
+## Table of contents
+
+<details>
+
+<!-- toc -->
+
+- [范例](#范例)
+- [Install](#install)
+- [Routes](#routes)
+  * [Plural routes](#plural-routes)
+  * [Singular routes](#singular-routes)
+  * [Filter](#filter)
+  * [Paginate](#paginate)
+  * [Sort](#sort)
+  * [Slice](#slice)
+  * [Operators](#operators)
+  * [Full-text search](#full-text-search)
+  * [Relationships](#relationships)
+  * [Database](#database)
+  * [Homepage](#homepage)
+- [Extras](#extras)
+  * [Static file server](#static-file-server)
+  * [Alternative port](#alternative-port)
+  * [Access from anywhere](#access-from-anywhere)
+  * [Remote schema](#remote-schema)
+  * [Generate random data](#generate-random-data)
+  * [HTTPS](#https)
+  * [Add custom routes](#add-custom-routes)
+  * [Add middlewares](#add-middlewares)
+  * [CLI usage](#cli-usage)
+  * [Module](#module)
+    + [Simple example](#simple-example)
+    + [Custom routes example](#custom-routes-example)
+    + [Access control example](#access-control-example)
+    + [Custom output example](#custom-output-example)
+    + [Rewriter example](#rewriter-example)
+    + [Mounting JSON Server on another endpoint example](#mounting-json-server-on-another-endpoint-example)
+  * [Deployment](#deployment)
+- [Links](#links)
+  * [Video](#video)
+  * [Articles](#articles)
+  * [Third-party tools](#third-party-tools)
+- [License](#license)
+
+<!-- tocstop -->
+
+</details>
+
 ## 范例
 
 Create a `db.json` file
