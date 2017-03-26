@@ -1,5 +1,8 @@
 # JSON-Server for Mock RESTful API
 
+https://github.com/xgqfrms-GitHub/json-server
+
+
 ************************************************
 [curl for windows](https://curl.haxx.se/download.html)
 
@@ -33,7 +36,7 @@
 
 
 ***********************************************************************************************
-## [API Design Cheat Sheet](API Design Cheat Sheet.md)
+## [API Design Cheat Sheet](./API Design Cheat Sheet.md)
 
-## [Platform Building Cheat Sheet](Platform Building Cheat Sheet.md)
+## [Platform Building Cheat Sheet](./Platform Building Cheat Sheet.md)
 ************************************************************************************************
