@@ -40,7 +40,7 @@ https://gist.github.com/xgqfrms-GitHub/cb8459af5e7db7af107a25615f738ab5
 
 
 ***********************************************************************************************
-## [API Design Cheat Sheet](./API Design Cheat Sheet.md)
+## [API Design Cheat Sheet](https://github.com/xgqfrms-GitHub/json-server/blob/master/Toturials/API%20Design%20Cheat%20Sheet.md)
 
-## [Platform Building Cheat Sheet](./Platform Building Cheat Sheet.md)
+### [Platform Building Cheat Sheet](https://github.com/xgqfrms-GitHub/json-server/blob/master/Toturials/Platform%20Building%20Cheat%20Sheet.md)
 ************************************************************************************************
